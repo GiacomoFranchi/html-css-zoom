@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 /*MAIN*/
 .container{
     width: 100%;
@@ -40,9 +44,25 @@
 .btn-nome{
     position: absolute;
     left: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0.4rem;
+    background-color: rgba(255, 255, 255, 0.4);
     border-style: none;
     color: white;
-    padding: 0.5rem 0.25rem;
+    padding: 0.3rem 0.25rem;
+}
+
+/*FIXED ITEMS*/
+.fixed-items{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btn-fixed{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-style: none;
+    color: white;
+    padding: 0.5rem 0.3rem;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
 }
