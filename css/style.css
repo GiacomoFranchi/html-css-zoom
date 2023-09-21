@@ -9,26 +9,32 @@
 .container{
     width: 100%;
     height: 100vh;
-    padding: 3rem 0;
     background-color: black;
+    display: flex;
 }
 
 .row{
     width: 90%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3rem 0 3rem;
 }
 
 .col{
-    width: calc(100% / 7 - 3rem);
-    margin: 1rem 0.5rem;
+    width: calc(98% / 7);
+    margin: 0.25rem 0;
 }
 
 .card{
     width: 100%;
     height: 100%;
     position: relative;
+}
+
+.card img{
+    width: 100%;
 }
 
 .btn-nome{
