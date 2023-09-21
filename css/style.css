@@ -9,6 +9,9 @@ button:hover{
     cursor: pointer;
 }
 
+body{
+    position: relative;
+}
 /*MAIN*/
 .main{
     position: relative;
@@ -75,14 +78,17 @@ button:hover{
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
     height: 80px;
+    width: 100%;
     background-color:rgb(34, 34, 34) ;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .toolbar{
     display: flex;
+
 }
 
 .btn-icona{
@@ -90,16 +96,16 @@ button:hover{
     flex-direction: column;
     border-style: none;
     background-color:rgb(34, 34, 34);
-    margin: 1rem;
+    margin: 0 1rem ;
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
     justify-items: center;
     align-items: center;
 
 }
 
 .taglia{
-    font-size: 30px;
+    font-size: 1.8rem;
     margin-bottom: 0.5rem;
 }
 
@@ -113,3 +119,12 @@ button:hover{
     margin: auto;
 }
 
+.btn-end{
+    color: red;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-style: none;
+    background-color: rgba(74, 74, 74, 0.5);
+    line-height: 5rem;
+    padding: 0 2rem;
+}
